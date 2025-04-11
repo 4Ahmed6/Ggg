@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Notice </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ملاحظاتي الذكية 📌</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>ملاحظاتي الذكية 📌</h1>
+
+            <div class="search-box">
+
+                <input 
+
+                    type="text" 
+
+                    id="searchInput" 
+
+                    placeholder="ابحث في الملاحظات..."
+
+                >
+
+            </div>
+
+        </header>
+
+        <div class="input-section">
+
+            <textarea 
+
+                id="noteInput" 
+
+                placeholder="اكتب ملاحظتك هنا (حد أقصى 500 حرف)..." 
+
+                maxlength="500"
+
+            ></textarea>
+
+            <div class="action-bar">
+
+                <span id="charCount">0/500</span>
+
+                <button onclick="notesApp.addNote()">💾 حفظ</button>
+
+            </div>
+
+        </div>
+
+        <div id="notesContainer" class="notes-grid"></div>
+
+        
+
+        <div id="emptyState" class="empty-state">
+
+            <img src="data:image/svg+xml;base64,..." alt="ملاحظات فارغة">
+
+            <p>لا توجد ملاحظات لعرضها</p>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
